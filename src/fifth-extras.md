@@ -1,6 +1,6 @@
 # Extra Junk
 
-Now that `push` and `pop` are written, everything else is acutally exactly the same as the stack case, weirdly. Only operations that change the length of the list need to touch the tail pointer.
+Now that `push` and `pop` are written, everything else is actutally exactly the same as the stack case, weirdly. Only operations that change the length of the list need to touch the tail pointer.
 
 But of course, now that everything's unsafe pointers we need to rewrite the code to use those! And if we're going to be touching all the code, we might as well
 take the chance to make sure we aren't missing something.
